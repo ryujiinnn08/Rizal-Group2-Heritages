@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bakas ni Rizal — Home</title>
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="logo.png" class="logo-ph-img">
+      <span class="logo-text">Bakas ni Rizal</span>
+    </a>
+    <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="sites.html">Heritage Sites</a></li>
+      <li><a href="map.html">Map</a></li>
+      <li><a href="quotes.html">His Words</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-texture"></div>
+  <div class="hero-vignette"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Republic of the Philippines</p>
+    <h1 class="hero-title">
+      <span class="hero-line">The Ground</span>
+      <span class="hero-accent">Rizal</span>
+      <span class="hero-line">Stood On</span>
+    </h1>
+    <p class="hero-sub">Discover the heritage sites that shaped the life, exile, and sacrifice of José Protacio Rizal — national hero of the Philippines.</p>
+    <div class="hero-cta">
+      <a href="#timeline" class="btn-primary">Begin the Journey</a>
+      <a href="sites.html" class="btn-ghost">Explore Sites</a>
+    </div>
+  </div>
+  <div class="hero-stamp">1861 — 1896</div>
+</section>
+
+<!-- TIMELINE -->
+<section class="section timeline-section" id="timeline">
+  <div class="section-header">
+    <p class="section-eyebrow">His Story</p>
+    <h2 class="section-title">The Journey of a Hero</h2>
+    <p class="section-desc">From the shores of Calamba to the fields of Bagumbayan — trace Rizal's path across the Philippines.</p>
+  </div>
+
+  <div class="timeline">
+
+    <div class="t-item reveal">
+      <div class="t-card">
+        <span class="t-year">1861</span>
+        <div class="t-img">
+          <img src="calamba.png" alt="Calamba Shrine">
+          <div class="t-img-overlay"></div>
+        </div>
+        <div class="t-body">
+          <h3 class="t-place">Calamba, Laguna</h3>
+          <p class="t-event">Birth of a Hero</p>
+          <p class="t-desc">José Rizal is born on June 19, 1861 — the seventh of eleven children. The family home, now a national shrine, stands as testament to his humble beginnings.</p>
+          <a href="sites.html#calamba" class="t-link">View Heritage Site →</a>
+        </div>
+      </div>
+      <div class="t-marker"><div class="marker-dot"></div></div>
+      <div class="t-spacer"></div>
+    </div>
+
+    <div class="t-item right reveal">
+      <div class="t-spacer"></div>
+      <div class="t-marker"><div class="marker-dot"></div></div>
+      <div class="t-card">
+        <span class="t-year">1872 – 1882</span>
+        <div class="t-img">
+          <img src="intra-home.png" alt="Intramuros">
+          <div class="t-img-overlay"></div>
+        </div>
+        <div class="t-body">
+          <h3 class="t-place">Intramuros, Manila</h3>
+          <p class="t-event">Student & Scholar</p>
+          <p class="t-desc">Rizal studies at Ateneo Municipal de Manila and Universidad de Santo Tomás. The walled city forged his intellect and nationalist spirit.</p>
+          <a href="sites.html#intramuros" class="t-link">View Heritage Site →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="t-item reveal">
+      <div class="t-card">
+        <span class="t-year">1892 – 1896</span>
+        <div class="t-img">
+          <img src="dapitan.png" alt="Dapitan">
+          <div class="t-img-overlay"></div>
+        </div>
+        <div class="t-body">
+          <h3 class="t-place">Dapitan, Zamboanga del Norte</h3>
+          <p class="t-event">Years of Exile</p>
+          <p class="t-desc">Exiled for four years, Rizal builds a school, a hospital, and a water system — transforming exile into a mission of service.</p>
+          <a href="sites.html#dapitan" class="t-link">View Heritage Site →</a>
+        </div>
+      </div>
+      <div class="t-marker"><div class="marker-dot"></div></div>
+      <div class="t-spacer"></div>
+    </div>
+
+    <div class="t-item right reveal">
+      <div class="t-spacer"></div>
+      <div class="t-marker"><div class="marker-dot"></div></div>
+      <div class="t-card">
+        <span class="t-year">1896</span>
+        <div class="t-img">
+          <img src="fort-santiago.png" alt="Fort Santiago">
+          <div class="t-img-overlay"></div>
+        </div>
+        <div class="t-body">
+          <h3 class="t-place">Fort Santiago, Intramuros</h3>
+          <p class="t-event">Imprisonment & Final Days</p>
+          <p class="t-desc">Falsely accused of sedition, Rizal writes his final poem — <em>Mi Último Adiós</em> — hidden inside an alcohol stove in his cell.</p>
+          <a href="sites.html#fortsantiago" class="t-link">View Heritage Site →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="t-item center reveal" style="flex-direction:column;align-items:center;display:flex;padding-left:0;">
+      <div class="t-marker" style="margin-bottom:1rem;"><div class="marker-dot final"></div></div>
+      <div class="t-card" style="max-width:520px;width:100%;border-color:rgba(139,26,26,0.3);">
+        <span class="t-year">December 30, 1896</span>
+        <div class="t-img">
+          <img src="luneta.png" alt="Rizal Monument">
+          <div class="t-img-overlay"></div>
+        </div>
+        <div class="t-body">
+          <h3 class="t-place">Luneta (Rizal Park), Manila</h3>
+          <p class="t-event">The Ultimate Sacrifice</p>
+          <p class="t-desc">At 7:03 AM, José Rizal is executed by firing squad at Bagumbayan. He was 35. His death ignited the Philippine Revolution. The Rizal Monument marks the very spot.</p>
+          <a href="sites.html#luneta" class="t-link">View Heritage Site →</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="sites-cta">
+    <p>Explore each heritage site in detail — photos, trivia, and virtual tours.</p>
+    <a href="sites.html" class="btn-primary">View All Heritage Sites</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="logo.png" class="logo-ph-img">
+      <span class="footer-title">Bakas ni Rizal</span>
+    </div>
+    <nav class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="sites.html">Heritage Sites</a>
+      <a href="map.html">Map</a>
+      <a href="quotes.html">His Words</a>
+    </nav>
+    <p class="footer-credits">Heritage of the Philippines &mdash; 1861–1896</p>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>

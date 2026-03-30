@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bakas ni Rizal — Rizal Monument, Luneta</title>
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="site-detail.css">
+</head>
+<body>
+
+<nav class="navbar solid" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="logo.png" class="logo-ph-img">
+      <span class="logo-text">Bakas ni Rizal</span>
+    </a>
+    <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="sites.html">Heritage Sites</a></li>
+      <li><a href="map.html">Map</a></li>
+      <li><a href="quotes.html">His Words</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-hero" style="background-image:none;">
+  <div class="page-hero-content">
+    <p class="page-eyebrow">Ermita, Manila · Luzon</p>
+    <h1 class="page-title">Rizal Monument, Luneta</h1>
+    <p class="page-subtitle">The most sacred site in the Philippines — the ground where Rizal gave his life.</p>
+  </div>
+</div>
+
+<div class="site-detail">
+  <a href="sites.html" class="back-link">← Back to Heritage Sites</a>
+
+  <div class="site-meta">
+    <span class="site-badge badge-preserved">Well Preserved</span>
+    <span class="site-region-label">Ermita, Manila, Luzon</span>
+  </div>
+  <h2 class="site-title">Rizal Monument, Luneta</h2>
+  <p class="site-intro">On December 30, 1896, at 7:03 in the morning, José Rizal was executed by firing squad at Bagumbayan — the field now known as Rizal Park or Luneta. He was 35 years old. His death ignited the Philippine Revolution. Today, the Rizal Monument — a towering bronze statue atop an obelisk — marks the exact site of his execution. His remains are interred beneath it. The monument is a UNESCO World Heritage Site and the most visited landmark in the Philippines.</p>
+
+  <div class="feature-block reveal">
+    <p class="feature-label">Location</p>
+    <div class="location-map-wrap">
+      <iframe src="https://maps.google.com/maps?q=Rizal+Monument+Luneta+Manila&t=&z=16&ie=UTF8&iwloc=&output=embed" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Site location map"></iframe>
+    </div>
+    <p class="map-caption">Pinned location on Google Maps</p>
+  </div>
+
+  <div class="feature-block reveal">
+    <p class="feature-label">Then vs. Now</p>
+    <div class="comparison-slider" id="mainSlider">
+      <div class="sl-before">
+        <img src="luneta.png" alt="Rizal Monument Luneta Today">
+        <span class="sl-tag sl-tag-now">Now</span>
+      </div>
+      <div class="sl-after">
+        <img src="luneta-before.png" alt="Rizal Monument Luneta Historical">
+        <span class="sl-tag sl-tag-then">Then</span>
+      </div>
+      <div class="sl-handle" id="mainHandle">
+        <div class="sl-bar"></div>
+        <div class="sl-circle">&#8646;</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="feature-block reveal">
+    <p class="feature-label">Did You Know?</p>
+    <div class="trivia-grid">
+      <div class="trivia-card" onclick="this.classList.toggle('flipped')">
+        <div class="trivia-front">10 years to build</div>
+        <div class="trivia-back">The Rizal Monument was completed in 1913, 17 years after his death. Designed by Swiss sculptor Richard Kissling, it took nearly a decade after a design competition.</div>
+      </div>
+      <div class="trivia-card" onclick="this.classList.toggle('flipped')">
+        <div class="trivia-front">His remains are inside</div>
+        <div class="trivia-back">Rizal's actual remains are interred beneath the monument. He asked for burial without ceremony — his body was buried face-down in an unmarked grave until the monument was built.</div>
+      </div>
+      <div class="trivia-card" onclick="this.classList.toggle('flipped')">
+        <div class="trivia-front">He turned to the sunrise</div>
+        <div class="trivia-back">Accounts say that when the shots rang out, Rizal used his last strength to turn his body to face upward and eastward — toward the rising sun and a free Philippines.</div>
+      </div>
+      <div class="trivia-card" onclick="this.classList.toggle('flipped')">
+        <div class="trivia-front">An eternal guard</div>
+        <div class="trivia-back">The Philippine flag at the Rizal Monument is one of the few in the country that flies 24 hours a day, 365 days a year — illuminated at night as a permanent guard of honor.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-big-quote reveal">
+    <p class="big-quote-text">"I die without seeing the dawn brighten over my native land. You who have it to see, welcome it — and forget not those who fell during the night."</p>
+    <p class="big-quote-meta">— José Rizal, Mi Último Adiós, Luneta, December 30, 1896</p>
+  </div>
+</div>
+
+<div class="other-sites">
+  <div style="max-width:900px;margin:0 auto 2rem;text-align:center;">
+    <p class="section-eyebrow">Continue Exploring</p>
+    <h3 style="font-family:var(--font-display);font-size:1.8rem;font-weight:700;color:var(--brown);">Other Heritage Sites</h3>
+  </div>
+  <div class="other-sites-grid">
+    <a href="site-calamba.html" class="mini-card">
+      <img src="calamba.png" alt="Rizal Shrine, Calamba">
+      <div class="mini-card-body">
+        <p class="mini-card-name">Rizal Shrine, Calamba</p>
+        <span class="mini-card-link">Explore →</span>
+      </div>
+    </a>
+    <a href="site-fortsantiago.html" class="mini-card">
+      <img src="fort-santiago.png" alt="Fort Santiago">
+      <div class="mini-card-body">
+        <p class="mini-card-name">Fort Santiago</p>
+        <span class="mini-card-link">Explore →</span>
+      </div>
+    </a>
+    <a href="site-dapitan.html" class="mini-card">
+      <img src="dapitan.png" alt="Rizal Shrine, Dapitan">
+      <div class="mini-card-body">
+        <p class="mini-card-name">Rizal Shrine, Dapitan</p>
+        <span class="mini-card-link">Explore →</span>
+      </div>
+    </a>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="logo.png" class="logo-ph-img">
+      <span class="footer-title">Bakas ni Rizal</span>
+    </div>
+    <nav class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="sites.html">Heritage Sites</a>
+      <a href="map.html">Map</a>
+      <a href="quotes.html">His Words</a>
+    </nav>
+    <p class="footer-credits">Heritage of the Philippines &mdash; 1861–1896</p>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+<script>
+const slider = document.getElementById('mainSlider');
+const handle = document.getElementById('mainHandle');
+const after  = slider.querySelector('.sl-after');
+let dragging = false;
+
+after.style.clipPath = 'inset(0 50% 0 0)';
+handle.style.left = '50%';
+
+function setPos(x) {
+  const r = slider.getBoundingClientRect();
+  let p = Math.min(Math.max((x - r.left) / r.width, 0.03), 0.97);
+  after.style.clipPath = 'inset(0 ' + ((1 - p) * 100) + '% 0 0)';
+  handle.style.left = (p * 100) + '%';
+}
+slider.addEventListener('mousedown',  function(e) { dragging = true; setPos(e.clientX); e.preventDefault(); });
+window.addEventListener('mousemove',  function(e) { if (dragging) setPos(e.clientX); });
+window.addEventListener('mouseup',    function() { dragging = false; });
+slider.addEventListener('touchstart', function(e) { dragging = true; setPos(e.touches[0].clientX); }, { passive: true });
+window.addEventListener('touchmove',  function(e) { if (dragging) setPos(e.touches[0].clientX); }, { passive: true });
+window.addEventListener('touchend',   function() { dragging = false; });
+</script>
+</body>
+</html>
