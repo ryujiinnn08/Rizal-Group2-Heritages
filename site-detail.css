@@ -4,7 +4,7 @@
   font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
   padding: 0.3rem 0.9rem; border-radius: 30px;
 }
-.badge-preserved { background: rgba(45,90,39,0.15); color: var(--green); border: 1px solid rgba(45,90,39,0.3); }
+.badge-preserved { background: rgba(0,56,168,0.15); color: var(--green); border: 1px solid rgba(0,56,168,0.35); }
 .badge-attention  { background: rgba(201,147,58,0.15); color: var(--brown-mid); border: 1px solid rgba(201,147,58,0.3); }
 .site-region-label { font-size: 0.78rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); }
 .site-title { font-family: var(--font-display); font-size: clamp(2rem,5vw,3.2rem); font-weight: 900; color: var(--brown); line-height: 1.1; margin-bottom: 1.25rem; }
@@ -48,7 +48,7 @@
   padding: 4px 10px; border-radius: 4px; font-weight: 700;
 }
 .sl-tag-now { right: 10px; background: rgba(201,147,58,0.85); color: var(--brown); }
-.sl-tag-then { left: 10px; background: rgba(28,16,8,0.75); color: var(--cream); }
+.sl-tag-then { left: 10px; background: rgba(14,17,32,0.75); color: var(--cream); }
 .sl-handle {
   position: absolute; top: 0; bottom: 0; left: 50%;
   transform: translateX(-50%); width: 44px;

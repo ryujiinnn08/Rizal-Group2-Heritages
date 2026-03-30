@@ -26,9 +26,9 @@
   font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
   padding: 0.3rem 0.8rem; border-radius: 30px;
 }
-.badge-preserved { background: rgba(45,90,39,0.88); color: #C8F0C0; }
+.badge-preserved { background: rgba(0,56,168,0.88); color: #DBE8FF; }
 .badge-attention  { background: rgba(201,147,58,0.88); color: #3B2510; }
-.badge-endangered { background: rgba(139,26,26,0.88); color: #FFCCCC; }
+.badge-endangered { background: rgba(206,17,38,0.88); color: #FFE1E5; }
 .site-card-body { padding: 1.5rem; flex: 1; display: flex; flex-direction: column; }
 .site-region {
   font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase;

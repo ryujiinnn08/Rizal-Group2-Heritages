@@ -1,21 +1,23 @@
 :root {
-  --red:        #8B1A1A;
-  --red-dark:   #5C0F0F;
-  --red-light:  #C94040;
-  --gold:       #C9933A;
-  --gold-light: #E8B96A;
-  --gold-pale:  #F0D49A;
-  --green:      #2D5A27;
-  --green-light:#4A8A42;
-  --cream:      #F5EDD6;
-  --cream-dark: #E8DABB;
+  --red:        #CE1126;
+  --red-dark:   #930C1A;
+  --red-light:  #E24758;
+  --gold:       #F2C14E;
+  --gold-light: #F7D47B;
+  --gold-pale:  #FCECC4;
+  --blue:       #0038A8;
+  --blue-light: #2D63C8;
+  --green:      #0038A8;
+  --green-light:#2D63C8;
+  --cream:      #F8F9FF;
+  --cream-dark: #E6EBFA;
   --brown:      #3B2510;
   --brown-mid:  #6B4520;
   --brown-light:#9A7A50;
-  --ink:        #1C1008;
-  --white:      #FDFAF4;
+  --ink:        #0E1120;
+  --white:      #FFFFFF;
 
-  --font-display: 'Playfair Display', Georgia, serif;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
   --font-body:    'Crimson Pro', Georgia, serif;
   --font-accent:  'EB Garamond', Georgia, serif;
 
@@ -53,11 +55,11 @@ ul { list-style: none; }
   transition: background var(--transition), box-shadow var(--transition);
 }
 .navbar.scrolled {
-  background: rgba(28,16,8,0.97);
+  background: rgba(14,17,32,0.97);
   box-shadow: 0 2px 20px rgba(0,0,0,0.3);
 }
 .navbar.solid {
-  background: rgba(28,16,8,0.97);
+  background: rgba(14,17,32,0.97);
 }
 .nav-inner {
   max-width: 1200px;
@@ -82,7 +84,7 @@ ul { list-style: none; }
 }
 .logo-text {
   font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: 470;
   font-size: 1.1rem;
   color: var(--cream);
   letter-spacing: 0.02em;
@@ -97,7 +99,7 @@ ul { list-style: none; }
   font-size: 0.9rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgba(245,237,214,0.75);
+  color: rgba(248,249,255,0.75);
   transition: color var(--transition);
   position: relative;
 }
@@ -140,7 +142,7 @@ ul { list-style: none; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(160deg, rgba(139,26,26,0.6) 0%, rgba(28,16,8,0.9) 60%, rgba(45,90,39,0.5) 100%);
+  background: linear-gradient(155deg, rgba(0,56,168,0.44) 0%, rgba(14,17,32,0.88) 58%, rgba(206,17,38,0.38) 100%);
 }
 .page-hero-content { position: relative; z-index: 2; }
 .page-eyebrow {
@@ -160,7 +162,7 @@ ul { list-style: none; }
 }
 .page-subtitle {
   font-size: 1.05rem;
-  color: rgba(245,237,214,0.65);
+  color: rgba(248,249,255,0.72);
   max-width: 580px;
   margin: 0 auto;
 }
@@ -197,7 +199,7 @@ ul { list-style: none; }
   background: var(--ink);
   padding: 3rem 1.5rem;
   text-align: center;
-  border-top: 1px solid rgba(201,147,58,0.15);
+  border-top: 1px solid rgba(242,193,78,0.22);
 }
 .footer-inner {
   max-width: 500px;
@@ -224,14 +226,14 @@ ul { list-style: none; }
   font-size: 0.82rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(245,237,214,0.4);
+  color: rgba(248,249,255,0.45);
   transition: color var(--transition);
 }
 .footer-nav a:hover { color: var(--gold); }
 .footer-credits {
   font-size: 0.75rem;
   letter-spacing: 0.15em;
-  color: rgba(201,147,58,0.3);
+  color: rgba(242,193,78,0.35);
 }
 
 @keyframes fadeUp {
@@ -260,7 +262,7 @@ ul { list-style: none; }
     flex-direction: column;
     position: absolute;
     top: 72px; left: 0; right: 0;
-    background: rgba(28,16,8,0.98);
+    background: rgba(14,17,32,0.98);
     padding: 1.5rem;
     gap: 1.5rem;
     text-align: center;
