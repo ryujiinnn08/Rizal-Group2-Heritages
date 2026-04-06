@@ -1,0 +1,57 @@
+.sites-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: stretch;
+}
+.site-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(201,147,58,0.15);
+  transition: box-shadow var(--transition), transform var(--transition);
+  display: flex; flex-direction: column;
+}
+.site-card:hover { box-shadow: var(--shadow-md); transform: translateY(-4px); }
+.site-card-img {
+  position: relative; height: 230px; overflow: hidden;
+}
+.site-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
+.site-card:hover .site-card-img img { transform: scale(1.04); }
+.site-badge {
+  position: absolute; top: 1rem; right: 1rem;
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 0.3rem 0.8rem; border-radius: 30px;
+}
+.badge-preserved { background: rgba(0,56,168,0.88); color: #DBE8FF; }
+.badge-attention  { background: rgba(201,147,58,0.88); color: #3B2510; }
+.badge-endangered { background: rgba(206,17,38,0.88); color: #FFE1E5; }
+.site-card-body { padding: 1.5rem; flex: 1; display: flex; flex-direction: column; }
+.site-region {
+  font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 0.35rem;
+}
+.site-name {
+  font-family: var(--font-display); font-size: 1.4rem; font-weight: 700;
+  color: var(--brown); line-height: 1.2; margin-bottom: 0.7rem;
+}
+.site-desc { font-size: 0.93rem; color: var(--brown-mid); line-height: 1.7; margin-bottom: 1.25rem; flex: 1; }
+.site-link {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-size: 0.85rem; font-weight: 600; letter-spacing: 0.06em;
+  color: var(--white); background: var(--brown);
+  padding: 0.65rem 1.4rem; border-radius: var(--radius-sm);
+  transition: var(--transition); align-self: flex-start;
+  border: 2px solid var(--brown);
+}
+.site-link:hover { background: var(--red); border-color: var(--red); }
+.site-card--wide { grid-column: 1 / -1; }
+.site-card--wide .site-card-img { height: 280px; }
+
+@media (max-width: 768px) {
+  .sites-grid { grid-template-columns: 1fr; }
+  .site-card--wide { grid-column: 1; }
+}
